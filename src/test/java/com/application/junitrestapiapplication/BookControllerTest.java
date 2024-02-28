@@ -54,6 +54,7 @@ public class BookControllerTest {
 
     @Test
     public void getAllBookRecords() throws Exception {
+
         List<Book> records = new ArrayList<>(Arrays.asList(RECORD_1,RECORD_2,RECORD_3));
 
         Mockito.when(bookRepository.findAll()).thenReturn(records);

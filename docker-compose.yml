@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  postgres:
+    image: postgres:13.3
+    environment:
+      POSTGRES_DB: junitapplication
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: Cfytr734
+    ports:
+      - "5432:5432"
